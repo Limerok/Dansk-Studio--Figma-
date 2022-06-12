@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    line-height: 23px;
+    font-size: 20px;
+    color: #333333;
+}
+body {
+    background: #ffffff;
+}
+.container {
+    max-width: 1380px;
+    margin: auto;
+}
+.title {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px;
+    color: #0C6EC9;
+    text-transform: uppercase;
+}
+/*----Header menu----*/
+.section-head {
+    box-shadow: 0px 4px 10px rgba(105, 105, 105, 0.1);
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+.head-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img {
+    width: 161px;
+}
+.menu-links {
+    display: flex;
+    list-style-type: none;
+}
+.link-page {
+    padding: 0 19px 0 19px;
+    transition: 0.3s;
+}
+.link-page:hover {
+    color: #C90C31;
+}
+.link-page-active {
+    font-weight: 600;
+}
+.link-social-network {
+    margin: 0 6px 0 6px;
+}
+.img-social {
+    width: 30px;
+}
+.site-languages {
+    color: #0C58C9;
+}
+
+/*----Trial Lesson----*/
+.trial-lesson {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 93px;
+    padding-bottom: 117px;
+}
+.title-trial-lesson {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 49px;
+}
+.color-yellow {
+    color: #ECBF2E;
+}
+.color-red {
+    color: #C90C31;
+}
+.description-trial-lesson {
+    font-size: 21px;
+    margin-top: 31px;
+    margin-bottom: 42px;
+    line-height: 25px;
+}
+.trial-lesson-button {
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 21px 34px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    border: 3px solid #ECBF2E;
+    background: transparent;
+    box-shadow: -4px -4px 20px #F4E8DA, 4px 4px 20px #F4E8DA;
+    cursor: pointer;
+}
+.trial-lesson-img {
+    max-width: 555px;
+    border-radius: 30px
+}
+/*----About me----*/
+.title-about-me {
+    text-align: center;
+    margin-bottom: 75px;
+}
+.about-me-img {
+    border-radius: 30px;
+}
+.about-me-image-description {
+    text-align: right;
+    padding: 19px;
+}
+.about-me {
+    display: flex;
+    justify-content: space-between;
+}
+.description-about-me {
+    max-width: 862px;
+}
+.about-me-block {
+    margin: -12px;
+}
+.text-about-me {
+    padding: 12px;
+}
+
+.education {
+    border: 3px solid #F4E8DA;
+    border-radius: 20px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 42px;
+    margin-bottom: 123px;
+}
+.education-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.education-points {
+    list-style: none;
+    margin: -12px;
+}
+.education-point {
+    padding: 12px;
+}
+.education-point::before {
+    content: url(../img/done.png);
+    margin-right: 5px;
+}
+.education-point-strong {
+    font-weight: 600;
+}
+.link-education {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 23px;
+    color: #0C58C9;
+}
+.link-education-up {
+    width: 30px;
+    height: 30px;
+}
+/* ---- Сервис (Услуги) ----*/
+.services {
+    max-width: 423px;
+    font-style: normal;
+}
